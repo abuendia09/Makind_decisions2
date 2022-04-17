@@ -109,12 +109,12 @@ let someNum = myFavoriteNumbers.slice(4,5)
 
 //Code Here
 let finalName = myFavoriteNumbers.push(35)
-{
+
 if (myFavoriteNumbers.length < 7){
   console.log('There are not enough elements in this array');
 } else (myFavoriteNumbers.length >= 7) 
-    let someNum = myFavoriteNumbers.slice(7.7)
-}
+let someNum = myFavoriteNumbers.slice(7.7)
+   console.log(someNum);
 
 ////////// PROBLEM 8 //////////
 
@@ -187,3 +187,14 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+for (let i = 1; i <= 50; i++){
+  if (i % 15 == 0)
+  console.log('Fizzbuzz');
+  else if (i % 5 == 0) 
+  console.log('Buzz');
+  else if (i % 3 == 0) 
+  console.log('Fizz');
+  else 
+  console.log(i);
+  
+}
